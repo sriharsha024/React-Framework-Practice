@@ -1,0 +1,31 @@
+.profile-card {
+    border: 1px solid #dee2e6;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+  }
+  
+  .profile-name {
+    color: #007bff; /* Blue color for the name */
+  }
+  
+  .profile-age {
+    color: #28a745; /* Green color for the age */
+  }
+  
+  .profile-status {
+    color: #dc3545; /* Red color for the status */
+  }
+  
+  .profile-hobbies-title {
+    color: #6c757d; /* Grey color for the hobbies title */
+  }
+  
+  .profile-hobbies-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .profile-hobby {
+    color: #343a40; /* Dark grey color for the hobbies */
+  }

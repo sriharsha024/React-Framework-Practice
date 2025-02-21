@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f0f2f5; /* Light grey background for the root */
+}
+
+header {
+  background-color: #007bff; /* Blue background for the header */
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #dee2e6;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #ffffff; /* White text color for the header */
+}
+
+main {
+  padding: 2rem 0;
+  background-color: #ffffff; /* White background for the main content */
+}
+
+main p {
+  font-size: 1.25rem;
+  color: #495057;
+}
+
+footer {
+  background-color: #343a40; /* Dark grey background for the footer */
+  padding: 1rem;
+  text-align: center;
+  border-top: 1px solid #dee2e6;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+  color: #ffffff; /* White text color for the footer */
+}
