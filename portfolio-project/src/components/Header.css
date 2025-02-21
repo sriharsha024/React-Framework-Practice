@@ -1,0 +1,44 @@
+.header {
+  background-color: #6cadef; /* White background for the header */
+  padding: 20px;
+  color: #1d1d1f;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-content {
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #1d1d1f; /* Dark color for the name */
+}
+
+.header p {
+  margin: 5px 0 0;
+  font-size: 1.25rem;
+  color: #6c757d; /* Medium grey color for the profession */
+}
+
+.header nav {
+  display: flex;
+  gap: 15px;
+}
+
+.header nav a {
+  color: #1d1d1f; /* Dark color for the navigation links */
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.header nav a:hover {
+  color: #0071e3; /* Blue color on hover */
+  background-color: #e0e0e0; /* Light grey background on hover */
+}

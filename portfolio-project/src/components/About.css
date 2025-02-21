@@ -1,0 +1,26 @@
+.about-section {
+  padding: 50px;
+  text-align: center;
+  color: #1d1d1f;
+  background-color: #ffffff; /* White background for the about section */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.about-section:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+}
+
+.about-section h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #0071e3; /* Blue color for the section title */
+}
+
+.about-section p {
+  font-size: 1.25rem;
+  color: #515154; /* Medium grey color for the text */
+  margin-bottom: 20px;
+}
