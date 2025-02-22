@@ -1,0 +1,80 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f0f0; /* Light grey background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app-container {
+  background-color: #ffffff; /* White background for the main content */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.component-container-a{
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #fe3e3e; /* Light grey background for the components */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.component-container-b {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #89db62; /* Light grey background for the components */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.themed-component {
+  background-color: #d0d0d0; /* Slightly darker grey background for the themed component */
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #1d1d1f; /* Dark color for the header text */
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+  color: #333; /* Darker grey color for the subheader text */
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.25rem;
+  color: #515154; /* Medium grey color for the text */
+}
+
+.toggle-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #0071e3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.toggle-button:hover {
+  background-color: #005bb5;
+  transform: scale(1.05);
+}
