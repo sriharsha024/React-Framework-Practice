@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #f0f0f0; /* Light grey background */
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.box {
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem;
+  background-color: #ffffff; /* White background for the main content */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #1d1d1f; /* Dark color for the header text */
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.25rem;
+  color: #515154; /* Medium grey color for the text */
+}
+
+.position-display {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: #f9f9f9; /* Light grey background for the position display */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.position-display p {
+  font-size: 1.5rem;
+  color: #333; /* Darker grey color for the text */
+}
+
+.position-display p strong {
+  color: #1d1d1f; /* Dark color for the labels */
+}
+
+.toggle-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #0071e3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.toggle-button:hover {
+  background-color: #005bb5;
+  transform: scale(1.05);
+}
+
+.time-container {
+  margin-bottom: 2rem;
+}
+
+.time-container h2 {
+  font-size: 2rem;
+  color: #1d1d1f; /* Dark color for the header text */
+  margin-bottom: 0.5rem;
+}
+
+.time-container p {
+  font-size: 1.25rem;
+  color: #515154; /* Medium grey color for the text */
+}
+
+.mouse-pointer-container {
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem;
+  background-color: #ffffff; /* White background for the main content */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
