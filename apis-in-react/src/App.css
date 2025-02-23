@@ -1,0 +1,99 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f0f0; /* Light grey background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app-container {
+  background-color: #ffffff; /* White background for the main content */
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-height: 80vh; /* Set a maximum height for the container */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.data-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem; /* Add some space between the columns */
+}
+
+.posts-container, .users-container {
+  width: 45%;
+}
+
+h1, h2 {
+  font-size: 2.5rem;
+  color: #1d1d1f; /* Dark color for the header text */
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1.25rem;
+  color: #515154; /* Medium grey color for the text */
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background-color: #e0f7fa; /* Light cyan background for the list items */
+  border-left: 5px solid #00796b; /* Teal border for the list items */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s forwards;
+  cursor: pointer;
+}
+
+li strong {
+  color: #00796b; /* Teal color for the labels */
+}
+
+.user-form {
+  margin-bottom: 2rem;
+}
+
+.user-form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.user-form button {
+  padding: 0.5rem 1rem;
+  background-color: #00796b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-form button:hover {
+  background-color: #004d40;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
